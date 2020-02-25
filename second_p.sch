@@ -1,0 +1,683 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:CP C20
+U 1 1 5F1A10B7
+P 2850 1200
+F 0 "C20" H 2965 1246 50  0000 L CNN
+F 1 "100uF" H 2965 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 2888 1050 50  0001 C CNN
+F 3 "~" H 2850 1200 50  0001 C CNN
+	1    2850 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J33
+U 1 1 5F1C889D
+P 2800 1800
+F 0 "J33" H 2880 1792 50  0000 L CNN
+F 1 "x-Stepper" H 2880 1701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2800 1800 50  0001 C CNN
+F 3 "~" H 2800 1800 50  0001 C CNN
+	1    2800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C22
+U 1 1 5F2378FD
+P 5450 1150
+F 0 "C22" H 5565 1196 50  0000 L CNN
+F 1 "100uF" H 5565 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 5488 1000 50  0001 C CNN
+F 3 "~" H 5450 1150 50  0001 C CNN
+	1    5450 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J39
+U 1 1 5F237925
+P 5400 1800
+F 0 "J39" H 5480 1792 50  0000 L CNN
+F 1 "y-Stepper" H 5480 1701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5400 1800 50  0001 C CNN
+F 3 "~" H 5400 1800 50  0001 C CNN
+	1    5400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C24
+U 1 1 5F249F7E
+P 8200 1200
+F 0 "C24" H 8315 1246 50  0000 L CNN
+F 1 "100uF" H 8315 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 8238 1050 50  0001 C CNN
+F 3 "~" H 8200 1200 50  0001 C CNN
+	1    8200 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J44
+U 1 1 5F249FA6
+P 8700 1850
+F 0 "J44" H 8780 1842 50  0000 L CNN
+F 1 "z-Stepper" H 8780 1751 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8700 1850 50  0001 C CNN
+F 3 "~" H 8700 1850 50  0001 C CNN
+	1    8700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C26
+U 1 1 5F3E271C
+P 2750 3700
+F 0 "C26" H 2865 3746 50  0000 L CNN
+F 1 "100uF" H 2865 3655 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 2788 3550 50  0001 C CNN
+F 3 "~" H 2750 3700 50  0001 C CNN
+	1    2750 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 1700 1700 0    50   Output ~ 0
+EN_X
+Text GLabel 4300 1700 0    50   Output ~ 0
+EN_Y
+Text GLabel 7100 1750 0    50   Output ~ 0
+EN_Z
+Text GLabel 1650 4250 0    50   Output ~ 0
+EN_E0
+Text GLabel 1700 1800 0    50   Output ~ 0
+STEP_X
+Text GLabel 4300 1800 0    50   Output ~ 0
+STEP_Y
+Text GLabel 7100 1850 0    50   Output ~ 0
+STEP_Z
+Text GLabel 1700 1900 0    50   Output ~ 0
+DIR_X
+Text GLabel 4300 1900 0    50   Output ~ 0
+DIR_Y
+Text GLabel 7100 1950 0    50   Output ~ 0
+DIR_Z
+Text GLabel 1650 4450 0    50   Output ~ 0
+DIR_E0
+$Comp
+L Connector_Generic:Conn_01x04 J60
+U 1 1 5F3E2744
+P 2750 4350
+F 0 "J60" H 2830 4342 50  0000 L CNN
+F 1 "e0-Stepper" H 2830 4251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2750 4350 50  0001 C CNN
+F 3 "~" H 2750 4350 50  0001 C CNN
+	1    2750 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 4350 0    50   Output ~ 0
+STEP_E0
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J49
+U 1 1 5E7ECDC2
+P 6650 2450
+F 0 "J49" V 6654 2630 50  0000 L CNN
+F 1 "J_Z" V 6745 2630 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 6650 2450 50  0001 C CNN
+F 3 "~" H 6650 2450 50  0001 C CNN
+	1    6650 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J50
+U 1 1 5E9F0498
+P 1100 4950
+F 0 "J50" V 1104 5130 50  0000 L CNN
+F 1 "J_E0" V 1195 5130 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 1100 4950 50  0001 C CNN
+F 3 "~" H 1100 4950 50  0001 C CNN
+	1    1100 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J51
+U 1 1 5ECCBECE
+P 1150 2400
+F 0 "J51" V 1154 2580 50  0000 L CNN
+F 1 "J_X" V 1245 2580 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 1150 2400 50  0001 C CNN
+F 3 "~" H 1150 2400 50  0001 C CNN
+	1    1150 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J52
+U 1 1 5EEFF903
+P 3800 2400
+F 0 "J52" V 3804 2580 50  0000 L CNN
+F 1 "J_Y" V 3895 2580 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 3800 2400 50  0001 C CNN
+F 3 "~" H 3800 2400 50  0001 C CNN
+	1    3800 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A3
+U 1 1 5E8FC682
+P 7500 1850
+F 0 "A3" H 7550 2731 50  0000 C CNN
+F 1 "Pololu_Breakout_A4988" H 7550 2640 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 7775 1100 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 7600 1550 50  0001 C CNN
+	1    7500 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2250 7100 2250
+Wire Wire Line
+	7100 1450 7050 1450
+Wire Wire Line
+	7050 1450 7050 1550
+Wire Wire Line
+	7050 1550 7100 1550
+Wire Wire Line
+	8200 1050 8100 1050
+Wire Wire Line
+	7700 1050 7700 1150
+$Comp
+L power:GND #PWR0124
+U 1 1 5E906C50
+P 8200 1350
+F 0 "#PWR0124" H 8200 1100 50  0001 C CNN
+F 1 "GND" H 8205 1177 50  0000 C CNN
+F 2 "" H 8200 1350 50  0001 C CNN
+F 3 "" H 8200 1350 50  0001 C CNN
+	1    8200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR0126
+U 1 1 5E90702B
+P 8100 1050
+F 0 "#PWR0126" H 8100 900 50  0001 C CNN
+F 1 "VDD" H 8117 1223 50  0000 C CNN
+F 2 "" H 8100 1050 50  0001 C CNN
+F 3 "" H 8100 1050 50  0001 C CNN
+	1    8100 1050
+	1    0    0    -1  
+$EndComp
+Connection ~ 8100 1050
+Wire Wire Line
+	8100 1050 7700 1050
+$Comp
+L power:+3.3V #PWR0131
+U 1 1 5E90748B
+P 7500 950
+F 0 "#PWR0131" H 7500 800 50  0001 C CNN
+F 1 "+3.3V" H 7515 1123 50  0000 C CNN
+F 2 "" H 7500 950 50  0001 C CNN
+F 3 "" H 7500 950 50  0001 C CNN
+	1    7500 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 950  7500 1150
+$Comp
+L power:GND #PWR0132
+U 1 1 5E907E55
+P 7600 2700
+F 0 "#PWR0132" H 7600 2450 50  0001 C CNN
+F 1 "GND" H 7605 2527 50  0000 C CNN
+F 2 "" H 7600 2700 50  0001 C CNN
+F 3 "" H 7600 2700 50  0001 C CNN
+	1    7600 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2650 7500 2700
+Wire Wire Line
+	7500 2700 7600 2700
+Wire Wire Line
+	7600 2700 7700 2700
+Wire Wire Line
+	7700 2700 7700 2650
+Connection ~ 7600 2700
+$Comp
+L power:+3.3V #PWR0133
+U 1 1 5E90D506
+P 6250 2300
+F 0 "#PWR0133" H 6250 2150 50  0001 C CNN
+F 1 "+3.3V" H 6265 2473 50  0000 C CNN
+F 2 "" H 6250 2300 50  0001 C CNN
+F 3 "" H 6250 2300 50  0001 C CNN
+	1    6250 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 2300 6250 2350
+Wire Wire Line
+	6250 2550 6350 2550
+Wire Wire Line
+	6350 2450 6250 2450
+Connection ~ 6250 2450
+Wire Wire Line
+	6250 2450 6250 2550
+Wire Wire Line
+	6250 2350 6350 2350
+Connection ~ 6250 2350
+Wire Wire Line
+	6250 2350 6250 2450
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A1
+U 1 1 5E90F9B1
+P 2100 1800
+F 0 "A1" H 2150 2681 50  0000 C CNN
+F 1 "Pololu_Breakout_A4988" H 2150 2590 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 2375 1050 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 2200 1500 50  0001 C CNN
+	1    2100 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1400 1650 1400
+Wire Wire Line
+	1650 1400 1650 1500
+Wire Wire Line
+	1650 1500 1700 1500
+$Comp
+L power:GND #PWR0134
+U 1 1 5E9204FC
+P 2200 2650
+F 0 "#PWR0134" H 2200 2400 50  0001 C CNN
+F 1 "GND" H 2205 2477 50  0000 C CNN
+F 2 "" H 2200 2650 50  0001 C CNN
+F 3 "" H 2200 2650 50  0001 C CNN
+	1    2200 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2600 2100 2650
+Wire Wire Line
+	2100 2650 2200 2650
+Wire Wire Line
+	2200 2650 2300 2650
+Wire Wire Line
+	2300 2650 2300 2600
+Connection ~ 2200 2650
+$Comp
+L power:GND #PWR0135
+U 1 1 5E922D6F
+P 2850 1350
+F 0 "#PWR0135" H 2850 1100 50  0001 C CNN
+F 1 "GND" H 2855 1177 50  0000 C CNN
+F 2 "" H 2850 1350 50  0001 C CNN
+F 3 "" H 2850 1350 50  0001 C CNN
+	1    2850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR0136
+U 1 1 5E9262DB
+P 2750 1050
+F 0 "#PWR0136" H 2750 900 50  0001 C CNN
+F 1 "VDD" H 2767 1223 50  0000 C CNN
+F 2 "" H 2750 1050 50  0001 C CNN
+F 3 "" H 2750 1050 50  0001 C CNN
+	1    2750 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1100 2300 1050
+Wire Wire Line
+	2300 1050 2750 1050
+Connection ~ 2750 1050
+Wire Wire Line
+	2750 1050 2850 1050
+Wire Wire Line
+	1700 2200 1550 2200
+$Comp
+L power:+3.3V #PWR0137
+U 1 1 5E92DCD1
+P 750 2250
+F 0 "#PWR0137" H 750 2100 50  0001 C CNN
+F 1 "+3.3V" H 765 2423 50  0000 C CNN
+F 2 "" H 750 2250 50  0001 C CNN
+F 3 "" H 750 2250 50  0001 C CNN
+	1    750  2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  2250 750  2300
+Wire Wire Line
+	750  2500 850  2500
+Wire Wire Line
+	850  2400 750  2400
+Connection ~ 750  2400
+Wire Wire Line
+	750  2400 750  2500
+Wire Wire Line
+	750  2300 850  2300
+Connection ~ 750  2300
+Wire Wire Line
+	750  2300 750  2400
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A2
+U 1 1 5E944A0C
+P 4700 1800
+F 0 "A2" H 4750 2681 50  0000 C CNN
+F 1 "Pololu_Breakout_A4988" H 4750 2590 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 4975 1050 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 4800 1500 50  0001 C CNN
+	1    4700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0138
+U 1 1 5E977DB0
+P 2100 850
+F 0 "#PWR0138" H 2100 700 50  0001 C CNN
+F 1 "+3.3V" H 2115 1023 50  0000 C CNN
+F 2 "" H 2100 850 50  0001 C CNN
+F 3 "" H 2100 850 50  0001 C CNN
+	1    2100 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 850  2100 1100
+$Comp
+L power:+3.3V #PWR0139
+U 1 1 5E9794DC
+P 4700 850
+F 0 "#PWR0139" H 4700 700 50  0001 C CNN
+F 1 "+3.3V" H 4715 1023 50  0000 C CNN
+F 2 "" H 4700 850 50  0001 C CNN
+F 3 "" H 4700 850 50  0001 C CNN
+	1    4700 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 850  4700 1100
+$Comp
+L power:GND #PWR0140
+U 1 1 5E97E220
+P 5450 1300
+F 0 "#PWR0140" H 5450 1050 50  0001 C CNN
+F 1 "GND" H 5455 1127 50  0000 C CNN
+F 2 "" H 5450 1300 50  0001 C CNN
+F 3 "" H 5450 1300 50  0001 C CNN
+	1    5450 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0141
+U 1 1 5E97EE00
+P 4800 2650
+F 0 "#PWR0141" H 4800 2400 50  0001 C CNN
+F 1 "GND" H 4805 2477 50  0000 C CNN
+F 2 "" H 4800 2650 50  0001 C CNN
+F 3 "" H 4800 2650 50  0001 C CNN
+	1    4800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR0142
+U 1 1 5E9809A7
+P 5300 1000
+F 0 "#PWR0142" H 5300 850 50  0001 C CNN
+F 1 "VDD" H 5317 1173 50  0000 C CNN
+F 2 "" H 5300 1000 50  0001 C CNN
+F 3 "" H 5300 1000 50  0001 C CNN
+	1    5300 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 1000 5300 1000
+Wire Wire Line
+	4900 1000 4900 1100
+Connection ~ 5300 1000
+Wire Wire Line
+	5300 1000 4900 1000
+Wire Wire Line
+	4700 2600 4700 2650
+Wire Wire Line
+	4700 2650 4800 2650
+Wire Wire Line
+	4900 2600 4900 2650
+Wire Wire Line
+	4900 2650 4800 2650
+Connection ~ 4800 2650
+Wire Wire Line
+	4150 2200 4300 2200
+Wire Wire Line
+	4300 1500 4250 1500
+Wire Wire Line
+	4250 1500 4250 1400
+Wire Wire Line
+	4250 1400 4300 1400
+$Comp
+L power:+3.3V #PWR0143
+U 1 1 5E98C233
+P 3400 2250
+F 0 "#PWR0143" H 3400 2100 50  0001 C CNN
+F 1 "+3.3V" H 3415 2423 50  0000 C CNN
+F 2 "" H 3400 2250 50  0001 C CNN
+F 3 "" H 3400 2250 50  0001 C CNN
+	1    3400 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2250 3400 2300
+Wire Wire Line
+	3400 2500 3500 2500
+Wire Wire Line
+	3500 2400 3400 2400
+Connection ~ 3400 2400
+Wire Wire Line
+	3400 2400 3400 2500
+Wire Wire Line
+	3400 2300 3500 2300
+Connection ~ 3400 2300
+Wire Wire Line
+	3400 2300 3400 2400
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A4
+U 1 1 5E994A9D
+P 2050 4350
+F 0 "A4" H 2100 5231 50  0000 C CNN
+F 1 "Pololu_Breakout_A4988" H 2100 5140 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 2325 3600 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 2150 4050 50  0001 C CNN
+	1    2050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J9
+U 1 1 5E9999CE
+P 8300 2350
+F 0 "J9" H 8380 2342 50  0000 L CNN
+F 1 "z-Stepper" H 8380 2251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8300 2350 50  0001 C CNN
+F 3 "~" H 8300 2350 50  0001 C CNN
+	1    8300 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 1750 8400 1750
+Wire Wire Line
+	8500 1850 8300 1850
+Wire Wire Line
+	8000 1950 8200 1950
+Wire Wire Line
+	8500 2050 8100 2050
+Wire Wire Line
+	8100 2150 8100 2050
+Connection ~ 8100 2050
+Wire Wire Line
+	8100 2050 8000 2050
+Wire Wire Line
+	8200 1950 8200 2150
+Connection ~ 8200 1950
+Wire Wire Line
+	8200 1950 8500 1950
+Wire Wire Line
+	8300 2150 8300 1850
+Connection ~ 8300 1850
+Wire Wire Line
+	8300 1850 8000 1850
+Wire Wire Line
+	8400 2150 8400 1750
+Connection ~ 8400 1750
+Wire Wire Line
+	8400 1750 8500 1750
+Wire Wire Line
+	1650 3950 1600 3950
+Wire Wire Line
+	1600 3950 1600 4050
+Wire Wire Line
+	1600 4050 1650 4050
+$Comp
+L power:GND #PWR0144
+U 1 1 5E9CD490
+P 2150 5200
+F 0 "#PWR0144" H 2150 4950 50  0001 C CNN
+F 1 "GND" H 2155 5027 50  0000 C CNN
+F 2 "" H 2150 5200 50  0001 C CNN
+F 3 "" H 2150 5200 50  0001 C CNN
+	1    2150 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 5150 2050 5200
+Wire Wire Line
+	2050 5200 2150 5200
+Wire Wire Line
+	2150 5200 2250 5200
+Wire Wire Line
+	2250 5200 2250 5150
+Connection ~ 2150 5200
+Wire Wire Line
+	1650 4750 1400 4750
+$Comp
+L power:+3.3V #PWR0145
+U 1 1 5E9DEB4F
+P 700 4800
+F 0 "#PWR0145" H 700 4650 50  0001 C CNN
+F 1 "+3.3V" H 715 4973 50  0000 C CNN
+F 2 "" H 700 4800 50  0001 C CNN
+F 3 "" H 700 4800 50  0001 C CNN
+	1    700  4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  4800 700  4850
+Wire Wire Line
+	700  5050 800  5050
+Wire Wire Line
+	800  4950 700  4950
+Connection ~ 700  4950
+Wire Wire Line
+	700  4950 700  5050
+Wire Wire Line
+	700  4850 800  4850
+Connection ~ 700  4850
+Wire Wire Line
+	700  4850 700  4950
+$Comp
+L power:GND #PWR0146
+U 1 1 5E9E9FC0
+P 2750 3850
+F 0 "#PWR0146" H 2750 3600 50  0001 C CNN
+F 1 "GND" H 2755 3677 50  0000 C CNN
+F 2 "" H 2750 3850 50  0001 C CNN
+F 3 "" H 2750 3850 50  0001 C CNN
+	1    2750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR0147
+U 1 1 5E9F082C
+P 2650 3550
+F 0 "#PWR0147" H 2650 3400 50  0001 C CNN
+F 1 "VDD" H 2667 3723 50  0000 C CNN
+F 2 "" H 2650 3550 50  0001 C CNN
+F 3 "" H 2650 3550 50  0001 C CNN
+	1    2650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0148
+U 1 1 5E9F4629
+P 2050 3400
+F 0 "#PWR0148" H 2050 3250 50  0001 C CNN
+F 1 "+3.3V" H 2065 3573 50  0000 C CNN
+F 2 "" H 2050 3400 50  0001 C CNN
+F 3 "" H 2050 3400 50  0001 C CNN
+	1    2050 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3400 2050 3650
+Wire Wire Line
+	2750 3550 2650 3550
+Wire Wire Line
+	2250 3550 2250 3650
+Connection ~ 2650 3550
+Wire Wire Line
+	2650 3550 2250 3550
+Wire Wire Line
+	1350 2300 1700 2300
+Wire Wire Line
+	1550 2200 1550 2400
+Wire Wire Line
+	1550 2400 1350 2400
+Wire Wire Line
+	1500 2100 1500 2500
+Wire Wire Line
+	1500 2500 1350 2500
+Wire Wire Line
+	1500 2100 1700 2100
+Wire Wire Line
+	4000 2300 4300 2300
+Wire Wire Line
+	4150 2200 4150 2400
+Wire Wire Line
+	4150 2400 4000 2400
+Wire Wire Line
+	4100 2100 4100 2500
+Wire Wire Line
+	4100 2500 4000 2500
+Wire Wire Line
+	4100 2100 4300 2100
+Wire Wire Line
+	6850 2350 7100 2350
+Wire Wire Line
+	7000 2250 7000 2450
+Wire Wire Line
+	7000 2450 6850 2450
+Wire Wire Line
+	6950 2150 6950 2550
+Wire Wire Line
+	6950 2550 6850 2550
+Wire Wire Line
+	6950 2150 7100 2150
+Wire Wire Line
+	1300 4850 1650 4850
+Wire Wire Line
+	1400 4750 1400 4950
+Wire Wire Line
+	1400 4950 1300 4950
+Wire Wire Line
+	1350 4650 1350 5050
+Wire Wire Line
+	1350 5050 1300 5050
+Wire Wire Line
+	1350 4650 1650 4650
+$EndSCHEMATC

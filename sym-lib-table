@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name ATSAM)(type Legacy)(uri ${KIPRJMOD}/ATSAM.lib)(options "")(descr ""))
+  (lib (name TMC)(type Legacy)(uri ${KIPRJMOD}/TMC.lib)(options "")(descr ""))
+  (lib (name logic)(type Legacy)(uri ${KIPRJMOD}/logic.lib)(options "")(descr ""))
+)

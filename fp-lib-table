@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name cotroller)(type KiCad)(uri ${KIPRJMOD}/cotroller.pretty)(options "")(descr ""))
+)

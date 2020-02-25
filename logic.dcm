@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74CBT3251
+D 1 to 8 Analog Multiplexer
+K TTL Analog Multiplexer
+F http://www.ti.com/lit/gpn/sn74cbt3253
+$ENDCMP
+#
+#End Doc Library
