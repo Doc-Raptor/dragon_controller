@@ -2,4 +2,6 @@
   (lib (name ATSAM)(type Legacy)(uri ${KIPRJMOD}/ATSAM.lib)(options "")(descr ""))
   (lib (name TMC)(type Legacy)(uri ${KIPRJMOD}/TMC.lib)(options "")(descr ""))
   (lib (name logic)(type Legacy)(uri ${KIPRJMOD}/logic.lib)(options "")(descr ""))
+  (lib (name mp2451)(type Legacy)(uri "C:/Users/David/Documents/3d controller/anet_32bit_2660/Powerside/mp2451.lib")(options "")(descr ""))
+  (lib (name rt9013-33gb)(type Legacy)(uri "C:/Users/David/Documents/3d controller/anet_32bit_2660/Powerside/rt9013-33gb.lib")(options "")(descr ""))
 )
