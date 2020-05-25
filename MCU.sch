@@ -15,81 +15,62 @@ Comment4 ""
 $EndDescr
 Text GLabel 7750 1650 2    50   Input ~ 0
 T1
-Text GLabel 7750 1750 2    50   Input ~ 0
+Text GLabel 7750 3450 2    50   Input ~ 0
 T2
-Text GLabel 7750 3750 2    50   Input ~ 0
-Z-MAX
-Text GLabel 6350 4750 0    50   Input ~ 0
-Z-MIN
-Text GLabel 7750 2850 2    50   Input ~ 0
-Y-MAX
-Text GLabel 6350 4650 0    50   Input ~ 0
-Y-MIN
-Text GLabel 7750 4850 2    50   Input ~ 0
-X-MIN
-Text GLabel 7750 2750 2    50   Input ~ 0
-X-MAX
-Text GLabel 7750 3350 2    50   Input ~ 0
-FET1
-Text GLabel 7750 4250 2    50   Input ~ 0
-FET3
-Text GLabel 7750 4150 2    50   Input ~ 0
-FET2
-Text GLabel 7750 4750 2    50   Input ~ 0
-EN_X
-Text GLabel 7750 2450 2    50   Input ~ 0
-EN_Y
-Text GLabel 6350 3950 0    50   Input ~ 0
-EN_Z
-Text GLabel 7750 4650 2    50   Input ~ 0
-STEP_X
-Text GLabel 7750 2050 2    50   Input ~ 0
-STEP_Y
-Text GLabel 6350 4150 0    50   Input ~ 0
-STEP_Z
-Text GLabel 7750 4550 2    50   Input ~ 0
-DIR_X
-Text GLabel 6350 4250 0    50   Input ~ 0
-DIR_Y
-Text GLabel 6350 4050 0    50   Input ~ 0
-DIR_Z
 Text GLabel 6350 3650 0    50   Input ~ 0
-EN_E0
+Z-MAX
+Text GLabel 6350 3350 0    50   Input ~ 0
+Z-MIN
+Text GLabel 7750 1750 2    50   Input ~ 0
+Y-MAX
+Text GLabel 6350 3450 0    50   Input ~ 0
+Y-MIN
+Text GLabel 6350 3550 0    50   Input ~ 0
+X-MIN
+Text GLabel 7750 1850 2    50   Input ~ 0
+X-MAX
+Text GLabel 6350 4250 0    50   Input ~ 0
+FET1
+Text GLabel 7750 2450 2    50   Input ~ 0
+FET3
+Text GLabel 6350 4150 0    50   Input ~ 0
+FET2
+Text GLabel 7750 4850 2    50   Input ~ 0
+EN_X
+Text GLabel 7750 4550 2    50   Input ~ 0
+EN_Y
+Text GLabel 7750 3550 2    50   Input ~ 0
+EN_Z
+Text GLabel 6350 3950 0    50   Input ~ 0
+STEP_X
+Text GLabel 7750 4650 2    50   Input ~ 0
+STEP_Y
+Text GLabel 7750 4350 2    50   Input ~ 0
+STEP_Z
+Text GLabel 6350 4050 0    50   Input ~ 0
+DIR_X
+Text GLabel 7750 4750 2    50   Input ~ 0
+DIR_Y
+Text GLabel 7750 4450 2    50   Input ~ 0
+DIR_Z
 Text GLabel 6350 3750 0    50   Input ~ 0
+EN_E0
+Text GLabel 7750 3350 2    50   Input ~ 0
 DIR_E0
 Text GLabel 6350 3850 0    50   Input ~ 0
 STEP_E0
-Text GLabel 7750 4050 2    50   Input ~ 0
-SDA
-Text GLabel 7750 3950 2    50   Input ~ 0
-SCL
-Text GLabel 7750 2250 2    50   Input ~ 0
+Text GLabel 7750 3750 2    50   Input ~ 0
 MISO
-Text GLabel 7750 2350 2    50   Input ~ 0
+Text GLabel 7750 3850 2    50   Input ~ 0
 MOSI
-Text GLabel 4600 4650 0    50   Input ~ 0
-SDA
-Text GLabel 4600 4750 0    50   Input ~ 0
-SCL
-Text GLabel 7750 2150 2    50   Input ~ 0
-SCK
-Text GLabel 7750 3450 2    50   Input ~ 0
-SV1
 Text GLabel 7750 3650 2    50   Input ~ 0
+SCK
+Text GLabel 7750 1950 2    50   Input ~ 0
+SV1
+Text GLabel 7750 3150 2    50   Input ~ 0
 CS1
-Text GLabel 7750 3550 2    50   Input ~ 0
+Text GLabel 7750 2050 2    50   Input ~ 0
 CS0
-$Comp
-L Connector_Generic:Conn_01x02 J53
-U 1 1 5F1F5635
-P 4800 4650
-F 0 "J53" H 4880 4642 50  0000 L CNN
-F 1 "I2C" H 4880 4551 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4800 4650 50  0001 C CNN
-F 3 "~" H 4800 4650 50  0001 C CNN
-	1    4800 4650
-	1    0    0    -1  
-$EndComp
 $Comp
 L MCU_ST_STM32F1:STM32F103RETx U2
 U 1 1 5E9FC800
@@ -402,7 +383,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 1650 5750 1600
 Wire Wire Line
-	6200 1450 6200 1650
+	6200 1450 6200 1500
 Connection ~ 6200 1650
 Wire Wire Line
 	6200 1650 5750 1650
@@ -491,44 +472,36 @@ Wire Wire Line
 Wire Wire Line
 	4900 2600 4900 2750
 Connection ~ 5050 2600
-Text GLabel 6350 3350 0    50   Input ~ 0
+Text GLabel 6350 4450 0    50   Input ~ 0
 BTN_SW
-Text GLabel 6350 3550 0    50   Input ~ 0
-AD0
-Text GLabel 7750 1950 2    50   Input ~ 0
-UART2_PWM1
-Text GLabel 7750 1850 2    50   Input ~ 0
-UART2_PWM0
+Text GLabel 7750 2850 2    50   Input ~ 0
+USB_D+
 Text GLabel 5750 1650 0    50   Input ~ 0
 RESET
-Text GLabel 7750 3050 2    50   Input ~ 0
+Text GLabel 6350 3150 0    50   Input ~ 0
 BTN_EN1
-Text GLabel 7750 2950 2    50   Input ~ 0
+Text GLabel 7750 4150 2    50   Input ~ 0
 BTN_EN2
-Text GLabel 6350 4550 0    50   Input ~ 0
+Text GLabel 7750 4250 2    50   Input ~ 0
 SD_DETECT
-Text GLabel 6350 4850 0    50   Input ~ 0
+Text GLabel 7750 3050 2    50   Input ~ 0
 SD_DETECTi
-Text GLabel 7750 4350 2    50   Input ~ 0
+Text GLabel 7750 4050 2    50   Input ~ 0
 LCD5
-Text GLabel 6350 4350 0    50   Input ~ 0
+Text GLabel 6350 4750 0    50   Input ~ 0
 LCD7
-Text GLabel 7750 4450 2    50   Input ~ 0
+Text GLabel 6350 4850 0    50   Input ~ 0
 LCD6
-Text GLabel 7750 3850 2    50   Input ~ 0
+Text GLabel 6350 4650 0    50   Input ~ 0
 LCD4
-Text GLabel 6350 4450 0    50   Input ~ 0
+Text GLabel 7750 3950 2    50   Input ~ 0
 LCDE
-Text GLabel 6350 3450 0    50   Input ~ 0
+Text GLabel 6350 4350 0    50   Input ~ 0
 Beeper
-Text GLabel 7750 3150 2    50   Input ~ 0
+Text GLabel 6350 4550 0    50   Input ~ 0
 LCDRS
 Text GLabel 4500 4200 0    50   Input ~ 0
-UART2_PWM1
-Text GLabel 4500 4100 0    50   Input ~ 0
-UART2_PWM0
-Text GLabel 4500 4000 0    50   Input ~ 0
-AD0
+IO_0
 $Comp
 L Connector_Generic:Conn_01x03 J14
 U 1 1 5EE49AE5
@@ -544,4 +517,62 @@ Text GLabel 7750 2650 2    50   Input ~ 0
 URX0
 Text GLabel 7750 2550 2    50   Input ~ 0
 UTX0
+Text GLabel 7750 2250 2    50   Input ~ 0
+MISO_I
+Text GLabel 7750 2350 2    50   Input ~ 0
+MOSI_I
+Text GLabel 7750 2150 2    50   Input ~ 0
+SCK_I
+Text GLabel 7750 2750 2    50   Input ~ 0
+USB_D-
+Text GLabel 4500 4100 0    50   Input ~ 0
+USB_D+
+Text GLabel 4500 4000 0    50   Input ~ 0
+USB_D-
+Text GLabel 7750 2950 2    50   Input ~ 0
+IO_0
+Text GLabel 9350 3900 0    50   Input ~ 0
+MOSI
+Text GLabel 9350 3700 0    50   Input ~ 0
+SCK
+Text GLabel 9350 3800 0    50   Input ~ 0
+MISO
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5EA38251
+P 9550 3800
+F 0 "J1" H 9630 3842 50  0000 L CNN
+F 1 "SPI" H 9630 3751 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9550 3800 50  0001 C CNN
+F 3 "~" H 9550 3800 50  0001 C CNN
+	1    9550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5EB15B66
+P 6700 1300
+AR Path="/5EB15B66" Ref="R?"  Part="1" 
+AR Path="/5EE89C74/5EB15B66" Ref="R7"  Part="1" 
+F 0 "R7" H 6759 1346 50  0000 L CNN
+F 1 "10K" H 6759 1255 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 6700 1300 50  0001 C CNN
+F 3 "~" H 6700 1300 50  0001 C CNN
+	1    6700 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 1500 6550 1500
+Wire Wire Line
+	6550 1500 6550 1300
+Wire Wire Line
+	6550 1300 6600 1300
+Connection ~ 6200 1500
+Wire Wire Line
+	6200 1500 6200 1650
+Wire Wire Line
+	6800 1300 6950 1300
+Wire Wire Line
+	6950 1300 6950 1400
+Connection ~ 6950 1400
 $EndSCHEMATC
